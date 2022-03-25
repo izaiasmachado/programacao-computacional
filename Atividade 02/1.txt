@@ -1,0 +1,16 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Aluno: Izaias Machado Pessoa Neto
+// Descrição: Questão 1 - Atividade 02
+// Data: 22/04/2020
+
+Algoritmo "Conta_50_a_100"
+
+VAR
+    i: inteiro;
+
+INICIO
+    PARA i DE 50 ATE 100 FACA
+        escreva(i);
+    FIMPARA
+FIMALGORITMO

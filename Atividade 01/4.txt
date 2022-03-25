@@ -1,0 +1,42 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Descrição: Questão 4 - Atividade 01
+// Aluno: Izaias Machado Pessoa Neto
+// Data: 23/08/2020
+
+Algoritmo "calculadora_simples"
+
+VAR
+   operador: inteiro;
+   a, b, resultado: real;
+
+INICIO
+    escreva("Digite um numero: ");
+    leia(a);
+
+    escreva("Digite outro numero: ");
+    leia(b);
+
+    escreva("1 - Somar\n");
+    escreva("2 - Subtrair\n");
+    escreva("3 - Dividir\n");
+    escreva("4 - Multiplicar\n");
+    escreva("Agora digite o numero da operacao que deseja realizar: ");
+    leia(operador);
+  
+    SE (operador == 1) ENTAO
+       resultado <- a + b;
+       escreva("O resultado da operacao eh " + resultado);
+    SE (operador == 2) ENTAO
+       resultado <- a - b;
+       escreva("O resultado da operacao eh " + resultado);
+    SE (operador == 3) ENTAO
+       resultado <- a / b;
+       escreva("O resultado da operacao eh " + resultado);
+    SE (operador == 4) ENTAO
+       resultado <- a * b;
+       escreva("O resultado da operacao eh " + resultado);
+    SENAO
+        escreva("Opção inválida!");
+    FIMSE
+FIMALGORITMO

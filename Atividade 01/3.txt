@@ -1,0 +1,25 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Descrição: Questão 3 - Atividade 01
+// Aluno: Izaias Machado Pessoa Neto
+// Data: 23/08/2020
+
+Algoritmo "positivo_negativo_ou_zero"
+
+VAR
+   num: real;
+
+INICIO
+    escreva("Digite um numero: ");
+    leia(num);
+
+    escreva("Seu numero eh ");
+
+    SE (num == 0) ENTAO
+        escreva("zero");
+    SE (num < 0) ENTAO
+        escreva("negativo");
+    SE (num > 0) ENTAO
+        escreva("positivo");
+    FIMSE
+FIMALGORITMO

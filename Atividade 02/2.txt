@@ -1,0 +1,40 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Aluno: Izaias Machado Pessoa Neto
+// Descrição: Questão 2 - Atividade 02
+// Data: 22/04/2020
+
+Algoritmo "Opera_2_Numeros"
+
+VAR
+   a, b, resultado: real;
+   operador: caractere;
+
+INICIO
+      escreval("Esse programa realiza operações aritmeticas");
+
+      escreva("Digite um numero: ");
+      leia(a);
+
+      escreva("Digite um operador aritmetico, (+, -, *, /)");
+      leia(operador);
+
+      escreva("Digite outro numero: ");
+      leia(b);
+      
+      SE operador = "+" ENTAO
+         resultado <- a + b;
+      FIMSE
+      SE operador = "-" ENTAO
+         resultado <- a - b;
+      FIMSE
+      SE operador = "*" ENTAO
+         resultado <- a * b;
+      FIMSE
+      SE operador = "/" ENTAO
+         resultado <- a / b;
+      FIMSE
+      
+      escreva("O resultado da operacao eh: ");
+      escreval(resultado);
+FIMALGORITMO

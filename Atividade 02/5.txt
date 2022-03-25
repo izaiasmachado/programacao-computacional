@@ -1,0 +1,21 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Aluno: Izaias Machado Pessoa Neto
+// Descrição: Questão 5 - Atividade 02
+// Data: 22/04/2020
+
+Algoritmo "Impares_entre_10_e_20"
+
+VAR
+   it: inteiro;
+
+INICIO
+   it <- 11;
+   
+   escreva("Esses sao os numeros impares entre 10 e 20: ");
+
+   ENQUANTO it < 20 FACA
+            escreva(it);
+            it <- it + 2;
+   FIMENQUANTO
+FIMALGORITMO

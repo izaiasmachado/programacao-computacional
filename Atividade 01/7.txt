@@ -1,0 +1,23 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Descrição: Questão 7 - Atividade 01
+// Aluno: Izaias Machado Pessoa Neto
+// Data: 23/08/2020
+
+Algoritmo "f_ou_m"
+
+VAR
+    letra: caractere;
+    
+INICIO
+    escreva("Escreva o sexo (F/M): ");
+    leia(letra);
+
+    SE (letra == 'F') ENTAO
+        escreva("Feminino");
+    SE (letra == 'M') ENTAO
+        escreva("Masculino");
+    SENAO
+        escreva("Sexo Inválido");
+    FIMSE
+FIMALGORITMO

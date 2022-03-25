@@ -1,0 +1,41 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Descrição: Questão 6 - Atividade 01
+// Aluno: Izaias Machado Pessoa Neto
+// Data: 23/08/2020
+
+Algoritmo "ordem_decrescente"
+
+VAR
+    a, b, c: real;
+
+INICIO
+    escreva("Digite o primeiro numero: ");
+    leia(a);
+
+    escreva("Digite o primeiro numero: ");
+    leia(b);
+
+    escreva("Digite o primeiro numero: ");
+    leia(c);
+
+    SE ((a >= b) && (a >= c)) ENTAO
+        SE (b > c) ENTAO
+            escreva(a + " " + b + " " + c);
+        SENAO
+            escreva(a + " " + c + " " + b);
+        FIMSE
+    SE ((b > a) && (b > c)) ENTAO
+        SE (a > c) ENTAO
+            escreva(b + " " + a + " " + c);
+        SENAO
+            escreva(b + " " + c + " " + a);
+        FIMSE
+    SE ((c > a) && (c > b)) ENTAO
+        SE (b > a) ENTAO
+            escreva(c + " " + b + " " + a);
+        SENAO
+            escreva(c + " " + a + " " + b);
+        FIMSE
+    FIMSE
+FIMALGORITMO

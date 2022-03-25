@@ -1,0 +1,21 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Aluno: Izaias Machado Pessoa Neto
+// Descrição: Questão 4 - Atividade 02
+// Data: 22/04/2020
+
+Agoritmo "Soma_1_a_100"
+
+VAR
+   it, soma: inteiro;
+
+INICIO
+   soma <- 0;
+   
+   PARA it DE 1 ATE 100 FACA
+        soma <- soma + it;
+   FIMPARA
+   
+   escreva("A soma de 1 ate 100 eh: ");
+   escreval(soma);
+FIMALGORITMO

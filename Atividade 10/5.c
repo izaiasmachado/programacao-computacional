@@ -1,0 +1,15 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Descrição: Questão 5 - Atividade 10
+// Aluno: Izaias Machado Pessoa Neto
+// Data: 10/07/2020
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a, b;
+    printf("O maior endereco eh %d", (&a > &b) ? &a : &b);
+
+    return 0;
+}

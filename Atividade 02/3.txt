@@ -1,0 +1,23 @@
+// Disciplina: SBL0086 - Programação Computacional
+// Professor: Danilo Alves
+// Aluno: Izaias Machado Pessoa Neto
+// Descrição: Questão 3 - Atividade 02
+// Data: 22/04/2020
+
+Algoritmo "Par_ou_Impar"
+
+VAR
+   num: inteiro;
+
+INICIO
+    escreva("Digite um numero: ");
+    leia(num);
+    
+    SE num mod 2 = 0 ENTAO
+       escreva(num);
+       escreval(" eh par!!");
+    SENAO
+       escreva(num);
+       escreval(" eh impar!!");
+    FIMSE
+FIMALGORITMO
